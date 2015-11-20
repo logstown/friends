@@ -1,1 +1,9 @@
 <h1>Login</h1>
+<div ng-show="login.authData">
+	<p>Hello, {{ login.authData.facebook.displayName }}</p>
+	<button ng-click="login.auth.$unauth()">Logout</button>
+</div>
+<div ng-hide="login.authData">
+	<p>Welcome, please log in.</p>
+	<button ng-click="login.login()">Login With Facebook</button>
+</div>

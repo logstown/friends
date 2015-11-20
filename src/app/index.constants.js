@@ -7,6 +7,6 @@
 		.constant('malarkey', malarkey)
 		.constant('moment', moment)
 		.constant('loginRedirectState', 'login')
-		.constant('FBURL', 'https://angularfire-seed-dev.firebaseio.com');
+		.constant('FBURL', 'https://oscars.firebaseio.com');
 
 })();
